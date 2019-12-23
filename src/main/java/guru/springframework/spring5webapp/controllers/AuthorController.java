@@ -18,6 +18,6 @@ public class AuthorController {
     public String getAuthor(Model model){
 
         model.addAttribute("authors", authorRepository.findAll());
-        return "authors";
+        return "authors"; //musi sie zgadzac z nazwa templatki html!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     }
 }
